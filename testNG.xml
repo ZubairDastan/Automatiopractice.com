@@ -1,0 +1,7 @@
+<suite thread-count="1" verbose="1" name="Udemy automation">
+    <test name="Automation task">
+        <classes>
+            <class name="TestRunner.UdemyTestRunner"/>
+        </classes>
+    </test>
+</suite>
