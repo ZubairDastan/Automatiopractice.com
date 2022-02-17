@@ -12,3 +12,6 @@ It completes the following tasks,
 7. Sign out from the account
 
 The test cycle will run another time for other user as well.
+
+## Test result
+![img.png](img.png)

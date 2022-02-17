@@ -1,7 +1,12 @@
-<suite thread-count="1" verbose="1" name="Udemy automation">
-    <test name="Automation task">
+<suite thread-count="1" verbose="1" name="AutomationPractice">
+    <test name="BS23 Automation task">
+        <groups>
+            <run>
+                <include name="Purchase"></include>
+            </run>
+        </groups>
         <classes>
-            <class name="TestRunner.UdemyTestRunner"/>
+            <class name="TestRunner.AutomationTestRunner"/>
         </classes>
     </test>
 </suite>
